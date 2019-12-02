@@ -1,5 +1,16 @@
+a{
+  text-decoration:none;
+  
+}
+a:hover{
+  text-decoration:underLine;
+  cursor:pointer;
+}
 ul{
   list-style: none;
+}
+body{
+  margin:0;
 }
 .google_imagen{
   width: 100%;
@@ -10,6 +21,7 @@ ul{
 }
 .header_ul_listado{
   display: flex;
+  margin-right: 24px;
  
   
 }
@@ -27,23 +39,70 @@ ul{
   display:flex;
   justify-content: center;
   padding-bottom:30px;
-  
-
 }
+
+
 .google_parrafo{
 text-align: center;
+font-size: 13px;
+padding-top:10px;
 }
 .google_botones{
   display:flex;
   justify-content: center;
-
+  
 }
+
+
 .google_buscador{
   padding: 10px 130px 10px 130px;
 }
 .google_botones button{
   padding: 5px 10px 5px 10px;
   margin-left: 16px;
+  color:rgba(0,0,0,.54);
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+
+}
+.footer_contenido{
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  border-top:1px solid #e4e4e4;
+
+ 
 }
 
+.footer_listado{
+  display: flex;
+  justify-content: space-between;
+  border-top:1px solid #e4e4e4
+  
+  
+}
+
+.footer_ul{
+  display: flex;
+  color: rgba(0,0,0,.54)
+  
+}
+.footer_ul li{
+  padding-left: 15px;
+}
+
+.footer_parrafo{
+  padding-left:54px;
+  color: rgba(0,0,0,.54)
+}
+.header_iniciar-seccion{
+  border-style:solid blue 2px;
+  background-color: blue;
+  
+
+}
+.header_iniciar-seccion a{
+  text-decoration: none;
+}
 
