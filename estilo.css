@@ -1,0 +1,19 @@
+ul{
+  list-style: none;
+}
+.google_titulo{
+  width: 50%;
+}
+.header_listado{
+  display: flex;
+  justify-content: flex-end;
+}
+.header_ul_listado{
+  display: flex;
+ 
+  
+}
+.header_ul_listado li{
+  padding-left: 15px;
+ 
+}
