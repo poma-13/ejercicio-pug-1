@@ -1,8 +1,8 @@
 ul{
   list-style: none;
 }
-.google_titulo{
-  width: 50%;
+.google_imagen{
+  width: 100%;
 }
 .header_listado{
   display: flex;
@@ -17,3 +17,33 @@ ul{
   padding-left: 15px;
  
 }
+
+.google_titulo{
+  display: flex;
+  justify-content: center;
+}
+
+.google_div_buscador{
+  display:flex;
+  justify-content: center;
+  padding-bottom:30px;
+  
+
+}
+.google_parrafo{
+text-align: center;
+}
+.google_botones{
+  display:flex;
+  justify-content: center;
+
+}
+.google_buscador{
+  padding: 10px 130px 10px 130px;
+}
+.google_botones button{
+  padding: 5px 10px 5px 10px;
+  margin-left: 16px;
+}
+
+

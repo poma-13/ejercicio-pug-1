@@ -1,4 +1,4 @@
-doctype html
+doctype html5
 head
   title titulo
   meta(name='viewport' content='')
@@ -11,29 +11,33 @@ header
       li: a imagenes
       li: a iniciar seccion
 
-div
-    h1: img.google_titulo(src="./imagenes/IMG_4444.JPG", alt="")
+div.google_titulo
+    h1: img.google_imagen(src="./imagenes/googlelogo_color_272x92dp.png", alt="")
 
 
 div.contenido
     
     form 
-    div
-      input(type="text").gogle_buscador
-    div 
+    div.google_div_buscador
+      input(type="text").google_buscador
+    div.google_botones
       button Buscar con Google
       button Me siento con suerte
-    p Ofrecido por Google en:  Quechua
+    p.google_parrafo Ofrecido por Google en:  Quechua
 
 footer
-  ul
-    li: a Publicidad
-    li: a Negocios
-    li: a Sobre Google
-    li: a Como funciona la busqueda
+  div
+    div
+      p Perú
+    div
+      ul
+        li: a Publicidad
+        li: a Negocios
+        li: a Sobre Google
+        li: a Como funciona la busqueda
 
-  ul
-    li: a Privacidad
-    li: a Condiciones
-    li: a Preferencias
+      ul
+        li: a Privacidad
+        li: a Condiciones
+        li: a Preferencias
  
