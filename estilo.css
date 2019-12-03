@@ -27,6 +27,9 @@ body{
 }
 .header_ul_listado li{
   padding-left: 15px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
  
 }
 
@@ -39,6 +42,9 @@ body{
   display:flex;
   justify-content: center;
   padding-bottom:30px;
+  width: 450px;
+  margin: auto;
+  position:relative;
 }
 
 
@@ -56,11 +62,15 @@ color: #222
 
 
 .google_buscador{
-  padding: 9px 130px 13px 130px;
+  
   border-style: solid;
   border-color:#e4e4e4;
-  border-radius: 19px;
+  border-radius: 20px;
   border-width: 1px;
+  width: 100%;
+  height: 42px;
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  border-color: rgba(223,225,229,0);
 }
 .google_botones button{
   padding: 5px 10px 5px 10px;
@@ -117,10 +127,33 @@ border-radius: 4px;
 }
 .header_iniciar-seccion a{
   text-decoration: none;
+  color:white;
 }
 .google_imagen-microfono{
-  position: absolute;
-padding-left: 419px;
+
 width: 30px;
 padding-top:7px;
+position:absolute;
+right:0;
+cursor:pointer;
+}
+.contenido{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+
+}
+
+
+@media (max-width: 768px){
+
+  .google_div_buscador{
+   
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  width: auto;
+  margin: auto;
+  position: relative;
 }

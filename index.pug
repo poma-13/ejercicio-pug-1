@@ -1,45 +1,49 @@
-doctype html5
+doctype html
+html(lang="es")
 head
   title titulo
-  meta(name='viewport' content='')
+  meta(charset="UTF-8")
+  meta(name="viewport" content="width=device-width, initial-scale=1.0")
+  meta(http-equiv="X-UA-Compatible" content="ie=edge")
+
   link(rel="stylesheet", href="estilo.css")
 body
-header
-  div.header_listado
-    ul.header_ul_listado
-      li: a gmail
-      li: a imagenes
-      li.header_iniciar-seccion: a iniciar seccion
+  header
+    div.header_listado
+      ul.header_ul_listado
+        li: a gmail
+        li: a imagenes
+        li.header_iniciar-seccion: a iniciar seccion
+  div.contenido
+    div.google_titulo
+      h1: img.google_imagen(src="./imagenes/googlelogo_color_272x92dp.png", alt="")
 
-div.google_titulo
-    h1: img.google_imagen(src="./imagenes/googlelogo_color_272x92dp.png", alt="")
 
+    div
+      
+      form 
+      div.google_div_buscador
+        input(type="text").google_buscador 
+        img.google_imagen-microfono(src="./imagenes/logo_microfono.png", alt="")
+      div.google_botones
+        button Buscar con Google
+        button Me siento con suerte
+      p.google_parrafo Ofrecido por Google en:
+        a(href="")  Quechua
 
-div.contenido
-    
-    form 
-    div.google_div_buscador
-      input(type="text").google_buscador 
-      img.google_imagen-microfono(src="./imagenes/logo_microfono.png", alt="")
-    div.google_botones
-      button Buscar con Google
-      button Me siento con suerte
-    p.google_parrafo Ofrecido por Google en:
-      a(href="")  Quechua
+  footer
+    div.footer_contenido
+      div.footer_parrafo
+        p Perú
+      div.footer_listado
+        ul.footer_ul
+          li: a Publicidad
+          li: a Negocios
+          li: a Sobre Google
+          li: a Como funciona la busqueda
 
-footer
-  div.footer_contenido
-    div.footer_parrafo
-      p Perú
-    div.footer_listado
-      ul.footer_ul
-        li: a Publicidad
-        li: a Negocios
-        li: a Sobre Google
-        li: a Como funciona la busqueda
-
-      ul.footer_ul
-        li: a Privacidad
-        li: a Condiciones
-        li: a Preferencias
- 
+        ul.footer_ul
+          li: a Privacidad
+          li: a Condiciones
+          li: a Preferencias
+  
